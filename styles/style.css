@@ -1,4 +1,319 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+}
+
+/* Banner Styles */
+.banner {
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Banner Image.png");
+  background-size: cover;
+  background-position: center;
+  width: 82.5rem;
+  height: 37.5rem;
+  border-radius: 16px;
+  margin: 7.5rem auto;
+}
+
+.banner-text {
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.banner-text h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.banner-text h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 5.9375rem; /* 131.944% */
+}
+
+/* Offer Styles */
+.offer {
+  width: 82.5rem;
+  margin: 50px auto;
+}
+
+.offer > h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 5.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.secondary-text {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.offer > h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.offer > img {
+  width: 50.18125rem;
+  height: 31.25rem;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Midnight Party Styles */
+.midnight-party {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png");
+  background-size: cover;
+  background-position: center;
+  width: 82.5rem;
+  height: 37.5rem;
+  border-radius: 16px;
+  margin: 7.5rem auto;
+}
+
+.midnight-party {
+  display: flex;
+  align-items: center;
+  margin: 7.5rem auto;
+}
+
+.midnight-party-text {
+  width: 70%;
+  padding-left: 7rem;
+}
+
+.midnight-party h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 5.5rem; /* 137.5% */
+  letter-spacing: 0.44rem;
+}
+
+.midnight-party p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.midnight-party-img {
+  /* FIX BLEND STYLE */
+  padding-right: 7rem;
+}
+
+.midnight-party-btn {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+  padding: 1rem 2rem;
+  margin-left: -1rem;
+}
+
+.midnight-party-btn:hover {
+  border: 1px solid #fff;
+  padding: 0.9rem 1.9rem;
+  color: #191818;
+  background-color: aliceblue;
+}
+
+/* Party Details Styles */
+
+.party-div {
+  width: 82.5rem;
+  height: 24.125rem;
+  margin: auto;
+  background-color: rgba(255, 0, 0, 0.1);
+  text-align: center;
+  padding-top: 7rem;
+}
+
+.party-details-text {
+  color: #070211;
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3.5rem; /* 175% */
+}
+
+.party-details-text span {
+  color: #f00;
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3.5rem; /* 175% */
+}
+
+.party-details-btn {
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  background: #f00;
+  border: none;
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+}
+
+.party-details-btn:hover {
+  border: 1px solid #fff;
+  padding: 0.9rem 1.9rem;
+  color: #191818;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Coming soon styles */
+.coming-soon {
+  display: flex;
+  width: 82.5rem;
+  height: 30.125rem;
+
+  margin: 7.5rem auto;
+  text-align: center;
+  align-items: center;
+}
+
+.coming-soon .coming-soon-circle-img,
+.coming-soon .coming-soon-right-text {
+  margin-left: 7.4rem;
+}
+
+.coming-soon-left-text {
+  width: 33.33%;
+  text-align: left;
+}
+
+.newbest {
+  color: #f00;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.coming-soon-title {
+  color: #070211;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.coming-soon .description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem; /* 160% */
+}
+
+.coming-soon-circle-img {
+  width: 33.33%;
+  height: auto;
+
+  border-radius: 100%;
+  border: #f00 15px solid;
+  padding: 2rem;
+}
+
+.coming-soon-right-text {
+  width: 33.33%;
+  text-align: left;
+}
+
+.coming-soon-rt-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.coming-soon-right-img {
+  margin-top: 2.69rem;
+}
+
+/* Footer styles */
+footer {
+  background: #070211;
+  color: white;
+  padding: 7.5rem 8.75rem;
+}
+
+footer .footer-part1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .address p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.5rem; /* 166.667% */
+}
+
+footer .phone,
+footer .website {
+  display: flex;
+}
+
+footer .footer-part1 img {
+  margin-right: 1rem;
+}
+
+footer .footer-part1 p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+hr {
+  height: 0.0625rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: none;
+  margin: 3rem 0;
+}
+
+footer .socials {
+  display: flex;
+  justify-content: center;
+}
+
+footer .socials img {
+  margin: 0 1.5rem;
+}
+
+footer .footer-part3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-part3 p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
